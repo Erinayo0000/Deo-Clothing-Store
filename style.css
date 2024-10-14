@@ -115,14 +115,22 @@ font-size: 16px;
 font-weight: 400;
 line-height: 9px;
 }
-.new-arrivals{
+.new-arrivals, .collection-h3 {
     text-align: center;
-    padding: 3rem;
+    padding: 2.5rem;
     
 }
 .new-arrivals h3{
+font-family: 'Inter',sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 38.73px; 
+color: #010101;
+
+}
+.collection-h3 h3{
     font-family: 'Inter',sans-serif;
-font-size: 32px;
+font-size: 30px;
 font-weight: 400;
 line-height: 38.73px; 
 color: #010101;
@@ -131,7 +139,7 @@ color: #010101;
 .row4{
     display: flex;
     justify-content: center;
-    margin: 3rem  3rem 1rem 3rem;
+    margin: 1rem  3rem 1rem 3rem;
     gap: 2rem;
 
 }
@@ -209,5 +217,40 @@ font-size: 24px;
 font-weight: 400;
 line-height: 38px;
 letter-spacing: -0.04em;
+}
+.collections{
+    background-color: rgba(235, 223, 212, 0.5);
+}
+.collection-div{
+    display: flex;
+    padding: 1rem;
+    margin-left: 2.5rem;
+    gap: 1rem;
+}
+.collection-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.collection-img{ 
+width: 400px;
+height: 430px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.collection-img1{
+width: 750px;
+height: 900px;
+}
+.mini-div{
+    display: flex;
+gap: 4px;
+}
+.mini-div-p{
+    font-family: 'Inter',sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
 
 }
