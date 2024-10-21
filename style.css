@@ -163,14 +163,14 @@ color: #010101;
 }
 .name-tag p{
  font-family: 'Inter',sans-serif;
-font-size: 24px;
+font-size: 22px;
 font-weight: 400;
 line-height: 29.05px;
 color: #010101;
 }
 .price p{
     font-family: 'Inter',sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 29.05px;
     color:#6C6661;
@@ -220,11 +220,14 @@ letter-spacing: -0.04em;
 }
 .collections{
     background-color: rgba(235, 223, 212, 0.5);
+ 
 }
 .collection-div{
     display: flex;
-    padding: 1rem;
-    margin-left: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    
     gap: 1rem;
 }
 .collection-div1{
@@ -233,14 +236,14 @@ letter-spacing: -0.04em;
     gap: 0.5rem;
 }
 .collection-img{ 
-width: 400px;
-height: 430px;
+width: 350px;
+height: 400px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
 .collection-img1{
-width: 750px;
-height: 900px;
+width: 700px;
+height: 850px;
 }
 .mini-div{
     display: flex;
@@ -254,3 +257,186 @@ line-height: 30px;
 text-align: left;
 
 }
+.mini-arrow{
+width: 40px;
+}
+.wedding-dress{
+    background-image:url('./images/Frame\ 51.png');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;
+}
+.radiate{
+font-family: 'Inter',sans-serif;
+font-size: 80px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #ffffff;
+padding: 4rem;
+
+}
+.wedding-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    position: relative;
+    top: 5rem;
+
+}
+.wd-btn{
+    padding: 14px 19px;
+    border: 1px ;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: -0.04em;
+text-align: center;
+
+}
+.special{
+ font-family: 'Inter',sans-serif;
+font-size: 60px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: -0.04em;
+color:#FFFFFF ;
+}
+.flex1{
+display: flex;
+gap: 1.5rem;
+}
+.flex2{
+    display: flex;
+    gap: 1.5rem;
+}
+.big-summer{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex: 1;
+}
+.summer-img1{
+width: 400px;
+height: 1072px;
+}
+.summer-img2{
+    width: 370px;
+height: 545px;
+}
+.shop-now{
+     border: none;
+        padding: 9px 16px;
+        background-color: #fafafa;
+        font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    position: relative;
+top:15rem;
+left:2rem;
+}
+.diamond{
+    background-image:url('./images/Frame\ 50.png');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;
+}
+.shine{
+font-family: 'Inter',sans-serif;
+font-size: 60px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #ffffff;
+padding: 2rem;
+
+}
+.diamond-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    position: relative;
+    top: 19rem;
+
+}
+.special{
+ font-family: 'Inter',sans-serif;
+font-size: 60px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: -0.04em;
+color:#FFFFFF ;
+}
+.flex1{
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem;
+    }
+    .flex2-trend{
+        display: flex;
+        margin-left: 10rem;
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+    .big-trend{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        flex: 1;
+    }
+    .trend-img1{
+    width: 400px;
+    height: 1072px;
+    }
+    .trend-img2{
+        width: 370px;
+    height: 545px;
+    }
+    .trend-now{
+         border: none;
+            padding: 9px 16px;
+            background-color: #fafafa;
+            font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: -0.04em;
+        position: relative;
+    
+   
+    }
+    .bra{
+        background-image:url('./images/Frame\ 52.png');
+        background-size: cover; /* Ensures the image covers the entire element */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        height: 100vh;
+    }
+    .wrap{
+    font-family: 'Inter',sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -0.04em;
+    text-align: right;
+    color: #ffffff;
+    padding: 4rem;
+    
+    }
+    .bra-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5rem;
+        position: relative;
+        top: 12rem;
+    
+    }
