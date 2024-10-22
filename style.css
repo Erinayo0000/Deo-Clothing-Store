@@ -330,7 +330,6 @@ height: 545px;
 .shop-now{
      border: none;
         padding: 9px 16px;
-        background-color: #fafafa;
         font-family: Inter;
     font-size: 24px;
     font-weight: 400;
@@ -378,41 +377,34 @@ color:#FFFFFF ;
 .flex1{
     display: flex;
     gap: 1.5rem;
+
     padding: 0.5rem;
     }
     .flex2-trend{
         display: flex;
-        margin-left: 10rem;
-        padding: 1rem;
+        padding: 2rem;
         gap: 1.5rem;
     }
     .big-trend{
         display: flex;
         justify-content: center;
-        gap: 1.5rem;
         flex: 1;
     }
     .trend-img1{
-    width: 400px;
-    height: 1072px;
+    width: 380px;
+    height: 980px;
     }
     .trend-img2{
         width: 370px;
     height: 545px;
     }
-    .trend-now{
-         border: none;
-            padding: 9px 16px;
-            background-color: #fafafa;
-            font-family: Inter;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 38px;
-        letter-spacing: -0.04em;
-        position: relative;
+.end-sale{
+    width: 370px;
+    height: 280px;
+   position: relative;
+   top:3rem;
     
-   
-    }
+}
     .bra{
         background-image:url('./images/Frame\ 52.png');
         background-size: cover; /* Ensures the image covers the entire element */
@@ -439,4 +431,8 @@ color:#FFFFFF ;
         position: relative;
         top: 12rem;
     
+    }
+    .deo-footer{
+        background-color:#010101;
+        
     }
